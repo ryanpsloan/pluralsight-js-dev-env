@@ -20,7 +20,6 @@
     "prebuild": "npm-run-all clean-dist test lint",
     "build": "babel-node buildScripts/build.js",
     "postbuild": "babel-node buildScripts/distServer.js"
-
   },
   "author": "Cory House",
   "license": "MIT",
@@ -44,7 +43,7 @@
     "eslint-plugin-import": "2.0.1",
     "eslint-watch": "2.1.14",
     "express": "4.14.0",
-    "extract-text-webpack-plugin": "1.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "2.22.0",
     "jsdom": "9.8.0",
     "json-schema-faker": "0.3.6",
